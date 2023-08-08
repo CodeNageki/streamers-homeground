@@ -4,4 +4,8 @@ const App = () => {
     return <h1> oko </h1>
 }
 
-return App;
+ReactDOM.createRoot(document.getElementById('root')).render(
+  <React.StrictMode>
+    <App />
+  </React.StrictMode>,
+)
