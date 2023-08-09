@@ -1,8 +1,9 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
+import Navbar from './Navbar/navbar'
 
 const App = () => {
-    return <h1> oko </h1>
+    return <Navbar/>
 }
 
 ReactDOM.createRoot(document.getElementById('root')).render(
