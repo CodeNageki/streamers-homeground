@@ -1,15 +1,15 @@
 $breakpoints: (sm: 0px, md: 720px, lg: 1100px)
 
 
-@mixin sm 
+@mixin screen-sm 
     @media (min-width: map-get($breakpoints, "sm"))
         @content
 
-@mixin md 
+@mixin screen-md 
     @media (min-width: map-get($breakpoints, "md"))
         @content
 
 
-@mixin lg 
+@mixin screen-lg 
     @media (min-width: map-get($breakpoints, "lg"))
         @content
