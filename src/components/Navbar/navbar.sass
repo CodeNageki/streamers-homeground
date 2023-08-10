@@ -1,11 +1,5 @@
-*
-    box-sizing: border-box
-    margin: 0
-    padding: 0
-    font-weight: normal
-    list-style: none
-    font-size: 1.5rem
-    text-decoration: none
+@import ../../assets/sassStyles/_mediaqueries
+@import ../../assets/sassStyles/_reset
     
 .navbar 
     height: 10vh
@@ -14,16 +8,39 @@
     align-items: center
     background-color: #48006A
 
-    
-
 .navbar-logo
     margin: 10px
-    color: red 
 
 .navbar-list
     margin: 10px
     display: flex
     gap: 30px
 
-.navbar-list-element
-    color: red
+
+
+@include screen-sm
+    .navbar-logo
+        color: yellow 
+
+    .navbar-list-element
+        color: yellow
+
+@include screen-md
+    .navbar
+        font-size: 1.5rem
+
+    .navbar-logo
+        color: red 
+
+    .navbar-list-element
+        color: red
+
+@include screen-lg
+    .navbar
+        font-size: 1.8rem
+
+    .navbar-logo
+        color: blue 
+
+    .navbar-list-element
+        color: blue
