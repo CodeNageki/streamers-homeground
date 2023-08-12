@@ -1,46 +1,38 @@
 @import ../../assets/sassStyles/_mediaqueries
 @import ../../assets/sassStyles/_reset
+@import ../../assets/sassStyles/_variables
     
 .navbar 
     height: 10vh
+    width: 100vw
     display: flex
     justify-content: space-between
     align-items: center
-    background-color: #48006A
+    background-color: $primary-background-color
 
 .navbar-logo
     margin: 10px
+    font-family: $main-font
+    color: $highlited-text-color
 
 .navbar-list
     margin: 10px
     display: flex
     gap: 30px
 
+.navbar-list-element
+    font-family: $main-font
+    color: $primary-text-color
 
 
 @include screen-sm
-    .navbar-logo
-        color: yellow 
-
-    .navbar-list-element
-        color: yellow
+    .navbar
+        font-size: 1.2rem
 
 @include screen-md
     .navbar
         font-size: 1.5rem
 
-    .navbar-logo
-        color: red 
-
-    .navbar-list-element
-        color: red
-
 @include screen-lg
     .navbar
         font-size: 1.8rem
-
-    .navbar-logo
-        color: blue 
-
-    .navbar-list-element
-        color: blue
