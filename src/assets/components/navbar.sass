@@ -1,0 +1,96 @@
+@import ../../sassStyles/_reset
+@import ../../sassStyles/_variables
+@import ../../sassStyles/_mediaqueries
+
+
+.nav
+    background-color: $primary-background-color
+
+//mobile view
+@include screen-sm  
+    .navbar-desktop
+        display: none
+    .navbar-mobile
+        width: 100%
+        padding: 15px
+        display: flex
+        flex-wrap: wrap
+        justify-content: space-between
+        align-items: center
+        font-family: $main-font
+    .navbar-logo-mobile
+        font-size: 1.3rem
+        color: $highlited-text-color
+    .navbar-burger-mobile
+        color: $primary-text-color
+        font-size: 1.5rem
+        transition: 0.5s
+        &:active
+            rotate: -60deg
+    .navbar-mobile-slider
+        display: none
+    .navbar-mobile-slider.is-open
+        opacity: 95%
+        position: fixed
+        left: 0
+        bottom: 0
+        height: calc(100vh - 56px)
+        width: 100%
+        background-color: $primary-background-color
+        border-top: 1px solid $primary-text-color
+        display: flex
+        flex-direction: column
+        justify-content: center
+        align-items: center
+    .navbar-page-navigation-mobile
+        font-size: 1.5rem
+        display: flex
+        flex-direction: column
+        justify-content: center
+        align-items: center
+        gap: 40px
+    .navbar-page-navigation-mobile-element
+        text-decoration: none
+        color: $primary-text-color
+
+//tablet view
+@include screen-md
+    .navbar-mobile
+        display: none
+    .navbar-desktop
+        width: 100%
+        padding: 25px
+        display: flex
+        justify-content: space-between
+        font-family: $main-font
+    .navbar-logo-desktop
+        font-size: 1.4rem
+        color: $highlited-text-color
+    .navbar-page-navigation-desktop
+        display: flex
+        gap: 30px
+    .navbar-page-navigation-desktop-element
+        font-size: 1.2rem
+        text-decoration: none
+        color: $primary-text-color
+
+//desktop&tv view
+@include screen-lg
+    .navbar-mobile
+        display: none
+    .navbar-desktop
+        width: 100%
+        padding: 25px
+        display: flex
+        justify-content: space-between
+        font-family: $main-font
+    .navbar-logo-desktop
+        font-size: 1.6rem
+        color: $highlited-text-color
+    .navbar-page-navigation-desktop
+        display: flex
+        gap: 30px
+    .navbar-page-navigation-desktop-element
+        font-size: 1.4rem
+        text-decoration: none
+        color: $primary-text-color

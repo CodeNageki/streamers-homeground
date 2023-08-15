@@ -1,9 +1,12 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
-import Navbar from './Navbar/navbar'
+import Navbar from './components/Navbar'
 
 const App = () => {
-    return <Navbar/>
+    return(<>
+      <Navbar/>
+    </>)
+
 }
 
 ReactDOM.createRoot(document.getElementById('root')).render(
