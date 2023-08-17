@@ -4,6 +4,7 @@
 
 
 .nav
+    min-width: 100vw
     background-color: $primary-background-color
 
 //mobile view
@@ -23,7 +24,7 @@
         position: absolute
         z-index: 99
         font-size: 1.3rem
-        color: $highlited-text-color
+        color: $primary-text-color
     .navbar-burger-mobile
         position: absolute
         right: 0
@@ -37,8 +38,8 @@
     .navbar-mobile-slider
         display: none
     .navbar-mobile-slider.is-open
-        opacity: 95%
         position: fixed
+        z-index: 300
         left: 0
         bottom: 0
         height: calc(100vh - 56px)
@@ -72,7 +73,7 @@
         font-family: $main-font
     .navbar-logo-desktop
         font-size: 1.4rem
-        color: $highlited-text-color
+        color: $primary-text-color
     .navbar-page-navigation-desktop
         display: flex
         gap: 30px
@@ -93,7 +94,7 @@
         font-family: $main-font
     .navbar-logo-desktop
         font-size: 1.6rem
-        color: $highlited-text-color
+        color: $primary-text-color
     .navbar-page-navigation-desktop
         display: flex
         gap: 30px
