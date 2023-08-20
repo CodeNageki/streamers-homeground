@@ -6,7 +6,8 @@ const Hero = () => {
         <div className="hero-container">
             <div className="content">
                 <div className="hero-main">
-                    <div className="hero-img"></div>
+                    {/* <div className="hero-img"></div> */}
+                    <img src="/myFace.jpeg" alt="my face" className="hero-img"/>
                     <div className="hero-compressed-about">
                         <h3>React Front-End Developer</h3>
                         <p>Hello, I'm Dominik Zawidzki.</p>
