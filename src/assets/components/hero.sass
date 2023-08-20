@@ -3,7 +3,7 @@
 @import ../../sassStyles/_mediaqueries
 
 .hero
-    min-width: 100vw
+    max-width: 100vw
     background-color: $secondary-background-color
     display: flex
     justify-content: center
@@ -29,9 +29,9 @@
 
 //mobile view
 @include screen-sm
-    .container 
+    .hero-container 
         width: 100%
-        height: calc( 100vh - 56px)
+        height: 100vh
         display: flex
         justify-content: space-between
         align-items: center
@@ -89,9 +89,9 @@
 
 //tablet view
 @include screen-md
-    .container 
+    .hero-container 
         width: 100%
-        height: calc( 100vh - 78px)
+        height: 100vh
         display: flex
         justify-content: space-evenly
         align-items: center
@@ -152,9 +152,9 @@
 
 //desktop&tv view
 @include screen-lg
-    .container 
-        width: 100%
-        height: calc( 100vh - 82px)
+    .hero-container 
+        width: 100vw
+        height: 100vh
         display: flex
         justify-content: space-evenly
         align-items: center
@@ -217,4 +217,3 @@
                 box-shadow: 0 0 3px 3px $primary-text-color
                 border-radius: 10%
                 padding: 10px
-

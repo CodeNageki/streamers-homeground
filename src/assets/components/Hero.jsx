@@ -3,7 +3,7 @@ import "./hero.sass";
 
 const Hero = () => {
     return(<section className="hero">
-        <div className="container">
+        <div className="hero-container">
             <div className="content">
                 <div className="hero-main">
                     <div className="hero-img"></div>

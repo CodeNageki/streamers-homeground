@@ -10,7 +10,7 @@ const Navbar = () => {
     }
 
     return(<>
-       <header>
+       <header className="page-navbar">
         <nav className="nav navbar-desktop">
             <a href="#" className="navbar-logo-desktop">zaw.dev</a>
             <ul className="navbar-page-navigation-desktop">
