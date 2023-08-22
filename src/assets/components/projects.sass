@@ -1,0 +1,251 @@
+@import ../../sassStyles/_reset
+@import ../../sassStyles/_variables
+@import ../../sassStyles/_mediaqueries
+
+.projects
+    max-width: 100vw
+    font-family: $main-font
+    display: flex
+    color: $primary-text-color
+    flex-direction: column
+    justify-content: center
+    align-items: center
+    background-color: $secondary-background-color
+    border-top: 5px solid $primary-text-color
+    h3
+        font-size: 3.5rem
+        margin: 100px
+        text-align: center
+
+
+@include screen-sm
+    .projects-container
+        width: 30rem
+        margin-bottom: 40px
+        display: flex
+        flex-direction: column
+        align-items: center
+        gap: 30px
+    .projects-first
+        width: 80%
+        height: auto
+        margin: 5x
+        padding: 5px
+        border: 10px solid $primary-text-color
+        box-shadow: 0 0 10px 1px $primary-text-color
+        display: flex
+        flex-direction: column
+        justify-content: space-between
+        align-items: center
+        padding: 50px
+        background-color: $tertiary-background-color
+        gap: 15px
+    .projects-first-text
+        width: 50%
+        text-align: center
+        display: flex
+        flex-direction: column
+        justify-content: center
+        align-items: center
+        gap: 20px
+        span
+            font-size: 1.5rem
+        p
+            font-size: 1.1rem
+        .github
+            font-size: 3rem
+            width: 10px
+            color: $primary-text-color
+        .github-a
+            cursor: pointer
+    .future-project-image
+        width: 250px
+        height: auto
+        box-shadow: 0 0 10px 1px $primary-text-color
+    .projects-second
+        width: 80%
+        height: auto
+        margin: 5x
+        padding: 5px
+        border: 10px solid $primary-text-color
+        box-shadow: 0 0 10px 1px $primary-text-color
+        display: flex
+        flex-direction: column
+        justify-content: space-between
+        align-items: center
+        padding: 50px
+        background-color: $tertiary-background-color
+        gap: 15px
+    .projects-second-text
+        width: 50%
+        text-align: center
+        display: flex
+        flex-direction: column
+        justify-content: center
+        align-items: center
+        gap: 20px
+        span
+            font-size: 1.5rem
+        p
+            font-size: 1.1rem
+        .github
+            font-size: 3rem
+            width: 10px
+            color: $primary-text-color
+        .github-a
+            cursor: pointer
+
+@include screen-md
+    .projects-container
+        width: 40rem
+        margin-bottom: 40px
+        display: flex
+        flex-direction: column
+        align-items: center
+        gap: 30px
+    .projects-first
+        width: 80%
+        height: auto
+        margin: 5x
+        padding: 5px
+        border: 10px solid $primary-text-color
+        box-shadow: 0 0 10px 1px $primary-text-color
+        display: flex
+        flex-direction: column
+        justify-content: space-between
+        align-items: center
+        padding: 50px
+        background-color: $tertiary-background-color
+        gap: 15px
+    .projects-first-text
+        width: 50%
+        text-align: center
+        display: flex
+        flex-direction: column
+        justify-content: center
+        align-items: center
+        gap: 20px
+        span
+            font-size: 1.5rem
+        p
+            font-size: 1.1rem
+        .github
+            font-size: 3rem
+            width: 10px
+            color: $primary-text-color
+        .github-a
+            cursor: pointer
+    .future-project-image
+        width: 350px
+        height: auto
+        box-shadow: 0 0 10px 1px $primary-text-color
+    .projects-second
+        width: 80%
+        height: auto
+        margin: 5x
+        padding: 5px
+        border: 10px solid $primary-text-color
+        box-shadow: 0 0 10px 1px $primary-text-color
+        display: flex
+        flex-direction: column
+        justify-content: space-between
+        align-items: center
+        padding: 50px
+        background-color: $tertiary-background-color
+        gap: 15px
+    .projects-second-text
+        width: 50%
+        text-align: center
+        display: flex
+        flex-direction: column
+        justify-content: center
+        align-items: center
+        gap: 20px
+        span
+            font-size: 1.5rem
+        p
+            font-size: 1.1rem
+        .github
+            font-size: 3rem
+            width: 10px
+            color: $primary-text-color
+        .github-a
+            cursor: pointer
+
+    
+@include screen-lg
+    .projects-container
+        width: 70rem
+        margin-bottom: 40px
+        display: flex
+        flex-direction: column
+        align-items: center
+    .projects-first
+        width: 80%
+        height: 20rem
+        margin: 10px
+        padding: 10px
+        border: 10px solid $primary-text-color
+        box-shadow: 0 0 10px 1px $primary-text-color
+        display: flex
+        flex-direction: row-reverse
+        justify-content: space-between
+        padding: 50px
+        background-color: $tertiary-background-color
+    .projects-first-text
+        width: 50%
+        text-align: center
+        display: flex
+        flex-direction: column
+        justify-content: center
+        align-items: center
+        gap: 20px
+        span
+            font-size: 2rem
+        p
+            font-size: 1.2rem
+        .github
+            font-size: 4rem
+            width: 10px
+            color: $primary-text-color
+        .github-a
+            cursor: pointer
+    .future-project-image
+        width: 350px
+        height: auto
+        box-shadow: 0 0 10px 1px $primary-text-color
+    .projects-second
+        width: 80%
+        height: 20rem
+        margin: 10px
+        padding: 10px
+        border: 10px solid $primary-text-color
+        box-shadow: 0 0 10px 1px $primary-text-color
+        display: flex
+        flex-direction: row
+        justify-content: space-between
+        padding: 50px
+        background-color: $tertiary-background-color
+    .projects-second-text
+        width: 50%
+        text-align: center
+        display: flex
+        flex-direction: column
+        justify-content: center
+        align-items: center
+        gap: 20px
+        span
+            font-size: 2rem
+        p
+            font-size: 1.2rem
+        .github
+            font-size: 4rem
+            width: 10px
+            color: $primary-text-color
+        .github-a
+            cursor: pointer
+    .future-project-image
+        width: 350px
+        height: auto
+        box-shadow: 0 0 10px 1px $primary-text-color
+        
