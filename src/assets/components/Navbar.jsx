@@ -17,6 +17,7 @@ const Navbar = () => {
                 <li><a href="#" className="navbar-page-navigation-desktop-element">Home</a></li>
                 <li><a href="#" className="navbar-page-navigation-desktop-element">About</a></li>
                 <li><a href="#" className="navbar-page-navigation-desktop-element">Projects</a></li>
+                <li><a href="#" className="navbar-page-navigation-desktop-element">Pokemon</a></li>
                 <li><a href="#" className="navbar-page-navigation-desktop-element">Contact</a></li>
             </ul>
         </nav>
@@ -30,6 +31,7 @@ const Navbar = () => {
                     <li><a href="#" className="navbar-page-navigation-mobile-element">Home</a></li>
                     <li><a href="#" className="navbar-page-navigation-mobile-element">About</a></li>
                     <li><a href="#" className="navbar-page-navigation-mobile-element">Projects</a></li>
+                    <li><a href="#" className="navbar-page-navigation-mobile-element">Pokemon</a></li>
                     <li><a href="#" className="navbar-page-navigation-mobile-element">Contact</a></li>
                 </ul>
             </div>
