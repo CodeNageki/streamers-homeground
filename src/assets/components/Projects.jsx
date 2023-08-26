@@ -2,7 +2,7 @@ import React from "react";
 import "./projects.sass"
 
 const Projects = () => {
-    return(<section className="projects">
+    return(<section className="projects" id="projects">
         <h3>My pieces of art and future projects</h3>
         <div className="projects-container">
             <div className="projects-first">

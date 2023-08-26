@@ -2,7 +2,7 @@ import React from "react";
 import "./hero.sass";
 
 const Hero = () => {
-    return(<section className="hero">
+    return(<section className="hero" id="hero">
         <div className="hero-container">
             <div className="content">
                 <div className="hero-main">

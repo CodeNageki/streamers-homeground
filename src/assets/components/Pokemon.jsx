@@ -25,7 +25,7 @@ const Poke = () => {
 
 
     return(
-        <section className="poke-section">
+        <section className="poke-section" id="poke">
             <span>LETS CHECK WHAT YOUR DAILY POKEMON IS</span>
             <div className="pokemon-container">
                 <h3>Your Pokemon for today is {pokemon}</h3>

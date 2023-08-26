@@ -1,0 +1,65 @@
+@import ../../sassStyles/_reset
+@import ../../sassStyles/_variables
+@import ../../sassStyles/_mediaqueries
+
+.contact
+    max-width: 100vw
+    height: 100vh
+    background-color: $secondary-background-color
+    font-family: $main-font
+    display: flex
+    flex-direction: column
+    align-items: center
+    justify-content: center
+    border-top: 5px solid $primary-text-color
+    color: $primary-text-color
+.contact-container
+    padding: 30px
+    display: flex
+    flex-direction: column
+    justify-content: center
+    align-items: center
+    border: 10px solid $primary-text-color
+    box-shadow: 0 0 10px 5px $primary-text-color
+    border-radius: 15px
+    text-align: center
+    h1
+        font-size: 2.5rem
+.contact-form
+    text-align: left
+    margin-top: 40px
+    width: 350px
+    display: flex
+    flex-direction: column
+    font-size: 1.3rem
+    gap: 15px
+    input
+        padding: 10px
+        margin-bottom: 15px
+        border: 1px solid #ccc
+        border-radius: 5px
+        font-size: 1.1rem
+        transition: border-color 0.3s ease-in-out
+        &:focus
+            border-color: $primary-text-color
+            outline: none
+            box-shadow: 0 0 10px 5px $primary-text-color
+    textarea
+        resize: none
+        height: 150px
+        font-size: 1.1rem
+        &:focus
+            border-color: $primary-text-color
+            outline: none
+            box-shadow: 0 0 10px 5px $primary-text-color
+    .submit-button
+        padding: 10px 20px
+        background-color: #626262
+        color: white
+        border: none
+        border-radius: 5px
+        cursor: pointer
+        font-size: 1.1rem
+        transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out
+        &:hover
+            background-color: #444444

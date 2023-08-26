@@ -2,7 +2,7 @@ import React from "react";
 import "./about.sass";
 
 const About = () => {
-    return(<section className="about">
+    return(<section className="about" id="about">
         <div className="about-container">
             <div className="about-center-text">
                 <h3>Polish Front-End Dev</h3>
